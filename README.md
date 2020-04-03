@@ -1,4 +1,5 @@
-# This project is intended to help setup a Steam Dedicated Server in an automated fashion. 
+# Steam Dedicated Server Automation Tool
+> This project is intended to help setup a Steam Dedicated Server in an automated fashion.
 There are some assumptions that we are making that will aid in making it easier to code but, generally, this script will do all the heavy lifting for you.
 
 ### Parameters available
