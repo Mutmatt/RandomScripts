@@ -97,6 +97,11 @@ ttt_terrortown
 ttt_casino_b2
 ttt_cluedo_b5_improved1
 ttt_oldruins";
+  } elseif ($gameMode -eq 'murder') {
+    $maps = "ph_office
+ph_restaurant";
+  } elseif ($gameMode -eq 'sandbox') {
+    $maps = "gm_construct";
   }
   $maps | Set-Content $gmodDir\garrysmod\cfg\mapcycle.txt;
   return $maps;
